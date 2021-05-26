@@ -1,0 +1,16 @@
+.texto-vertical {
+  font-family: "Limelight", cursive;
+  background-color: transparent;
+  border-style: none;
+  margin-top: 50px;
+  color: white;
+  opacity: 70%;
+  width: 1em;
+  font-size: 40px;
+  letter-spacing: 1px;
+  white-space: pre-line;
+  cursor: pointer;
+}
+.texto-vertical:hover {
+  color: rgb(255, 130, 13);
+}
