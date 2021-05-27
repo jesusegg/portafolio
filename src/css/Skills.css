@@ -1,0 +1,26 @@
+.div-img-skills {
+  margin: 0 auto;
+  margin-top: 40px;
+  /* border-style: solid; */
+  max-width: 800px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.imagen-skills {
+  margin: 50px 0;
+}
+.imagen-skills img {
+  width: "70px";
+  height: "80px";
+}
+.imagen-skills h4 {
+  color: white;
+  font-size: 23px;
+  margin: 10px;
+}
+.titulo-skills {
+  margin-top: 50px;
+  color: white;
+}

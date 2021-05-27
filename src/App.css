@@ -5,11 +5,12 @@ h1 {
   font-family: "Limelight", cursive;
 }
 body {
+  overflow: hidden;
   background-color: #142850;
 }
 .capa4 {
   background-color: #00a8cc;
-  height: 100vh;
+  max-height: 100vh;
 }
 .capa3 {
   background-color: #0c7b93;

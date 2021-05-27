@@ -1,0 +1,45 @@
+.home {
+  margin: 250px auto;
+
+  /* border-style: solid;
+  border-color: deepskyblue; */
+  /* margin-top: 180px;
+  margin-left: 50px; */
+  max-width: 600px;
+  height: 350px;
+}
+.boton-svg {
+  cursor: pointer;
+  color: white;
+  border-style: none;
+  background-color: transparent;
+  font-size: x-large;
+}
+.titulo-nombre {
+  font-family: "Limelight", cursive;
+  color: white;
+  font-size: 70px;
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 0px;
+}
+.titulo-frontend {
+  margin-top: 0;
+  text-align: left;
+  color: white;
+  font-size: 35px;
+}
+.boton-cv {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  background-color: blue;
+  padding: 13px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 50px;
+  margin-right: 440px;
+}
+.div-svg {
+  margin-left: 280px;
+}

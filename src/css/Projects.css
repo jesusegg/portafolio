@@ -1,0 +1,16 @@
+.div-img-projects {
+  margin: 0 auto;
+  margin-top: 40px;
+  /* border-style: solid; */
+  max-width: 800px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.imagen-projects h4 {
+  color: white;
+  font-size: 23px;
+  margin: 10px;
+}
