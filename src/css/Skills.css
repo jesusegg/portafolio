@@ -14,7 +14,13 @@
 .img-skills {
   width: 90px;
   height: 100px;
+  transition: transform 800ms;
 }
+.img-skills:hover {
+  transform: scale(1.12);
+  opacity: 1;
+}
+
 .imagen-skills h4 {
   color: white;
   font-size: 23px;
