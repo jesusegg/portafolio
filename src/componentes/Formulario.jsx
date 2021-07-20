@@ -45,7 +45,7 @@ function Formulario() {
           </button>
           {state && <h1>info send successfully</h1>}
         </div>
-        <div>
+        <div className="div-git">
           <p style={{ color: "white" }}>You can also reach me at</p>
           <div>
             <a

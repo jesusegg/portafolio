@@ -12,7 +12,7 @@ function About() {
           <div className="about-img">
             <img src={img} alt="" />
           </div>
-          <div className="parrafo" style={{ color: "white" }}>
+          <div className="parrafo">
             <p>
               Hello, I’m Jesus, nice to meet you! Let me tell you a bit about
               myself. I’m a Full Stack Developer with a background in sales and

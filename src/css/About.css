@@ -20,3 +20,18 @@
   text-align: justify;
   line-height: 1.9;
 }
+@media (max-width: 800px) {
+  .contenedor-about {
+    margin: 20px auto;
+    margin-top: 30px;
+    width: 70%;
+    height: 403px;
+    display: flex;
+    flex-direction: column;
+  }
+  .parrafo {
+    color: white;
+    text-align: justify;
+    line-height: 1.2;
+  }
+}

@@ -47,3 +47,23 @@
 .div-svg {
   margin-left: 280px;
 }
+@media (max-width: 800px) {
+  .titulo-nombre {
+    color: white;
+    font-size: 35px;
+  }
+  .titulo-frontend {
+    color: white;
+    font-size: 25px;
+  }
+  .home {
+    margin: 180px auto;
+    margin-left: 20px;
+  }
+  .boton-cv {
+    font-size: 13px;
+    background-color: blue;
+    padding: 13px;
+    width: 140px;
+  }
+}

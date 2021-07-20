@@ -1,6 +1,6 @@
 .div-img-projects {
   margin: 0 auto;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   /* border-style: solid; */
   max-width: 800px;
   height: 500px;
@@ -8,7 +8,12 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
-
+.titulo-projects {
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
 .imagen-projects h4 {
   color: white;
   font-size: 23px;
@@ -17,4 +22,19 @@
 .imagen-projects img {
   border: 3px solid white;
   border-radius: 20px;
+}
+@media (max-width: 800px) {
+  .div-img-projects {
+    margin: 0 auto;
+    /* margin-top: 20px; */
+    /* border-style: solid; */
+    max-width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .project {
+    height: 1900px;
+  }
 }

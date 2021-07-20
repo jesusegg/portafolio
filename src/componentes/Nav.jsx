@@ -12,28 +12,35 @@ function Nav(props) {
         name="selectHome"
         onClick={(e) => handlerStateNav(e)}
       >
-        <span>Home</span>
+        Home
       </button>
       <button
         className="boton-nav boton-skill"
         name="selectSkills"
         onClick={(e) => handlerStateNav(e)}
       >
-        <span>Skills Set</span>
+        Skills Set
       </button>
       <button
         className="boton-nav boton-projects"
         name="selectProjects"
         onClick={(e) => handlerStateNav(e)}
       >
-        <span>Projects</span>
+        Projects
+      </button>
+      <button
+        className="boton-nav boton-about"
+        name="selectAbout"
+        onClick={(e) => handlerStateNav(e)}
+      >
+        About
       </button>
       <button
         className="boton-nav boton-formulario"
         name="selectFormulario"
         onClick={(e) => handlerStateNav(e)}
       >
-        <span>Contact</span>
+        Contact
       </button>
     </div>
   );

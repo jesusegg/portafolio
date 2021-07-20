@@ -51,3 +51,25 @@ body {
     transform: translate(50%, 0);
   }
 } */
+@media (max-width: 800px) {
+  .display {
+    background-color: black;
+    display: none;
+    height: 1300px;
+  }
+  body {
+    overflow: visible;
+  }
+  .capa3 {
+    background-color: #0c7b93;
+    height: 1100px;
+  }
+  .capa5 {
+    background-color: #2d9db6;
+    height: 920px;
+  }
+  .capa4 {
+    background-color: #00a8cc;
+    height: 800px;
+  }
+}

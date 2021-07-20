@@ -11,7 +11,7 @@ function Projects() {
   return (
     <Fade right>
       <div>
-        <h1 className="titulo-skills">PROJECTS</h1>
+        <h1 className="titulo-projects">PROJECTS</h1>
         <div className="div-img-projects">
           <div className="imagen-projects">
             <a

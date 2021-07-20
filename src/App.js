@@ -29,7 +29,7 @@ function App() {
       [e.target.name]: true,
     });
   }
-
+  const [resposive, setResponsive] = useState(true);
   const proporciones = {
     home: boton.selectHome ? "80%" : "5%",
     skills: boton.selectSkills ? "80%" : "5%",
@@ -39,6 +39,9 @@ function App() {
   };
 
   const DivPortafolio = styled.div`
+    @media (max-width: 800px) {
+      display: none;
+    }
     display: grid;
     grid-template-columns: ${proporciones.home} ${proporciones.skills} ${proporciones.projects} ${proporciones.about} ${proporciones.contact};
   `;
@@ -101,7 +104,33 @@ function App() {
           componente={boton.selectFormulario && <Formulario />}
         />
       </DivPortafolio>
+      <Nav handlerStateNav={handlerStateNav} />
 
+      {boton.selectHome && (
+        <div className="capa1">
+          <Home />
+        </div>
+      )}
+      {boton.selectSkills && (
+        <div className="capa2">
+          <Skills />
+        </div>
+      )}
+      {boton.selectProjects && (
+        <div className="capa3">
+          <Projects />
+        </div>
+      )}
+      {boton.selectAbout && (
+        <div className="capa5">
+          <About />
+        </div>
+      )}
+      {boton.selectFormulario && (
+        <div className="capa4">
+          <Formulario />
+        </div>
+      )}
       {/* </div> */}
       {/* {bonus} */}
     </div>

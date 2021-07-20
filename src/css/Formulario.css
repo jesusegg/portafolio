@@ -39,3 +39,19 @@ input {
   padding: 12px 26px;
   border-radius: 10px;
 }
+@media (max-width: 800px) {
+  .contenedor-formulario h1 {
+    font-size: 26px;
+  }
+  .contenedor-formulario label {
+    font-size: 22px;
+  }
+  .div-git {
+    margin-top: 30px;
+  }
+  .botonFormulario {
+    margin-left: 70px;
+    padding: 12px 26px;
+    border-radius: 10px;
+  }
+}

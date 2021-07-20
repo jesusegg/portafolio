@@ -1,34 +1,39 @@
 .display-botones {
   display: flex;
-  flex-direction: column;
+
   /* word-wrap: break-word; */
 }
 .boton-nav {
-  width: 50px;
-  height: 130px;
-  position: absolute;
+  width: 100%;
+  height: 40px;
+  color: white;
+  font-weight: 600;
 }
 .boton-formulario {
   background-color: #00a8cc;
-  right: 1.2rem;
+
   border: none;
 }
 .boton-projects {
   background-color: #0c7b93;
-  right: 6rem;
+
   border: none;
 }
 .boton-skill {
-  top: 8rem;
   background-color: #27496d;
-  right: 11.4rem;
+
   border: none;
 }
 .boton-home {
   background-color: #142850;
-  right: 17rem;
+
   border: none;
 }
-.display-botones span {
-  writing-mode: vertical-rl;
+.boton-about {
+  background-color: #2d9db6;
+
+  border: none;
 }
+/* .display-botones span {
+  writing-mode: vertical-rl;
+} */

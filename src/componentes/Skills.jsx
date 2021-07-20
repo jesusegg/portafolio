@@ -23,99 +23,51 @@ function Skills() {
         <h1 className="titulo-skills">SKILLS SET</h1>
         <div className="div-img-skills">
           <div className="imagen-skills">
-            <img
-              style={{ width: "90px", height: "100px" }}
-              src={html}
-              alt="html"
-            ></img>
+            <img className="img-skills" src={html} alt="html"></img>
             <h4>HTML5</h4>
           </div>
           <div className="imagen-skills">
-            <img
-              style={{ width: "90px", height: "100px" }}
-              src={css}
-              alt="css"
-            ></img>
+            <img className="img-skills" src={css} alt="css"></img>
             <h4>CSS</h4>
           </div>
           <div className="imagen-skills">
-            <img
-              style={{ width: "90px", height: "100px" }}
-              src={js}
-              alt="js"
-            ></img>
+            <img className="img-skills" src={js} alt="js"></img>
             <h4>Javascript</h4>
           </div>
           <div className="imagen-skills">
-            <img
-              style={{ width: "90px", height: "100px" }}
-              src={git}
-              alt="git"
-            ></img>
+            <img className="img-skills" src={git} alt="git"></img>
             <h4>Git</h4>
           </div>
           <div className="imagen-skills">
-            <img
-              style={{ width: "90px", height: "100px" }}
-              src={react}
-              alt="react"
-            ></img>
+            <img className="img-skills" src={react} alt="react"></img>
             <h4>React</h4>
           </div>
           <div className="imagen-skills">
-            <img
-              style={{ width: "90px", height: "100px" }}
-              src={redux}
-              alt="redux"
-            ></img>
+            <img className="img-skills" src={redux} alt="redux"></img>
             <h4>Redux</h4>
           </div>
           <div className="imagen-skills">
-            <img
-              style={{ width: "90px", height: "100px" }}
-              src={node}
-              alt="node"
-            ></img>
+            <img className="img-skills" src={node} alt="node"></img>
             <h4>Node js</h4>
           </div>
           <div className="imagen-skills">
-            <img
-              style={{ width: "90px", height: "100px" }}
-              src={express}
-              alt="express"
-            ></img>
+            <img className="img-skills" src={express} alt="express"></img>
             <h4>Express</h4>
           </div>
           <div className="imagen-skills">
-            <img
-              style={{ width: "90px", height: "100px" }}
-              src={postgresql}
-              alt="postgresql"
-            ></img>
+            <img className="img-skills" src={postgresql} alt="postgresql"></img>
             <h4>PostgreSQL</h4>
           </div>
           <div className="imagen-skills">
-            <img
-              style={{ width: "90px", height: "100px" }}
-              src={mongodb}
-              alt="mongodb"
-            ></img>
+            <img className="img-skills" src={mongodb} alt="mongodb"></img>
             <h4>MongoDB</h4>
           </div>
           <div className="imagen-skills">
-            <img
-              style={{ width: "90px", height: "100px" }}
-              src={typescript}
-              alt="typescript"
-            ></img>
+            <img className="img-skills" src={typescript} alt="typescript"></img>
             <h4>Typescript</h4>
           </div>
           <div className="imagen-skills">
-            <img
-              style={{ width: "90px", height: "100px" }}
-              src={sequelize}
-              alt="sequelize"
-            ></img>
+            <img className="img-skills" src={sequelize} alt="sequelize"></img>
             <h4>Sequelize</h4>
           </div>
         </div>
