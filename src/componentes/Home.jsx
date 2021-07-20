@@ -2,7 +2,7 @@ import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import "../css/Home.css";
-import cv from "../curriculum/CV Jesús Gedler - Full Stack Developer (EN).pdf";
+import cv from "../curriculum/CV Jesús Gedler - Full Stack Developer final.pdf";
 import Fade from "react-reveal/Fade";
 
 function Home() {
