@@ -22,10 +22,32 @@ body {
 }
 .capa1 {
   background-color: #142850;
-
   height: 100vh;
+  transition: width 20s;
 }
+
 .capa5 {
   background-color: #2d9db6;
   height: 100vh;
 }
+/* @media (prefers-reduced-motion: no-preference) {
+  .capa1 {
+    animation: slide 1s;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes slide {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(50%, 0);
+  }
+} */

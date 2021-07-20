@@ -40,6 +40,10 @@
   border-radius: 50px;
   margin-right: 440px;
 }
+.boton-cv a {
+  text-decoration: none;
+  color: white;
+}
 .div-svg {
   margin-left: 280px;
 }

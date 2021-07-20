@@ -8,6 +8,7 @@ import React, { useState } from "react";
 import Divcolor from "./componentes/Divcolor";
 import styled from "styled-components";
 import About from "./componentes/About";
+import Fade from "react-reveal/Fade";
 
 function App() {
   const [boton, setBoton] = useState({
@@ -59,6 +60,7 @@ function App() {
       {/* {contacto}{formulario} */}
       {/* {boton.selectFormulario && <Formulario />} */}
       {/* <div className="contenedor-divColor"> */}
+
       <DivPortafolio>
         <Divcolor
           handlerStateNav={handlerStateNav}
@@ -67,6 +69,7 @@ function App() {
           claseColor={"capa1"}
           componente={boton.selectHome && <Home />}
         />
+
         <Divcolor
           handlerStateNav={handlerStateNav}
           texto={!boton.selectSkills && "S K I L L S"}
@@ -74,6 +77,7 @@ function App() {
           claseColor={"capa2"}
           componente={boton.selectSkills && <Skills />}
         />
+
         <Divcolor
           handlerStateNav={handlerStateNav}
           texto={!boton.selectProjects && "P R O J E C T S"}
@@ -81,6 +85,7 @@ function App() {
           claseColor={"capa3"}
           componente={boton.selectProjects && <Projects />}
         />
+
         <Divcolor
           handlerStateNav={handlerStateNav}
           texto={!boton.selectAbout && "A B O U T"}
@@ -96,6 +101,7 @@ function App() {
           componente={boton.selectFormulario && <Formulario />}
         />
       </DivPortafolio>
+
       {/* </div> */}
       {/* {bonus} */}
     </div>

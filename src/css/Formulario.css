@@ -1,0 +1,41 @@
+.contenedor-formulario {
+  /* border-style: solid; */
+  margin: 20px auto;
+  margin-top: 120px;
+  width: 90%;
+  height: 400px;
+  color: white;
+}
+.div-input {
+  width: 80%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 30px;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+.div-input label {
+  font-size: 30px;
+  font-weight: 500;
+  color: aqua;
+  width: 100%;
+  text-align: left;
+}
+label {
+  text-align: center;
+}
+input {
+  height: 25px;
+}
+.mensaje {
+  height: 120px;
+}
+.grid-formulario {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+.botonFormulario {
+  padding: 12px 26px;
+  border-radius: 10px;
+}
