@@ -1,7 +1,7 @@
 import React from "react";
 import img from "../img/vamoa.jpg";
 import "../css/Projects.css";
-import camisas from "../img/camisas.png";
+import trekker from "../img/trekker.jpg";
 import dogs from "../img/dogs.jpg";
 import concierto from "../img/concierto.png";
 import netflix from "../img/netflix-clone.jpg";
@@ -13,6 +13,20 @@ function Projects() {
       <div>
         <h1 className="titulo-projects">PROJECTS</h1>
         <div className="div-img-projects">
+          <div className="imagen-projects">
+            <a
+              href="https://trekker-59f4e.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                style={{ width: "350px", height: "190px" }}
+                src={trekker}
+                alt=""
+              ></img>
+            </a>
+            <h4>Trekker Vacations Rentals</h4>
+          </div>
           <div className="imagen-projects">
             <a
               href="https://netflix-clone-f490a.web.app/"
@@ -54,20 +68,6 @@ function Projects() {
               ></img>
             </a>
             <h4>Landing page - concert</h4>
-          </div>
-          <div className="imagen-projects">
-            <a
-              href="https://frontendjesusgedler.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                style={{ width: "350px", height: "190px" }}
-                src={camisas}
-                alt=""
-              ></img>
-            </a>
-            <h4>Shirts catalog page</h4>
           </div>
         </div>
       </div>
