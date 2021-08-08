@@ -3,6 +3,7 @@ import "../css/Formulario.css";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import Fade from "react-reveal/Fade";
+import db from "../firebase/config.js";
 import { useState } from "react";
 
 function Formulario() {
@@ -34,6 +35,12 @@ function Formulario() {
           </div>
           <button
             onClick={() => {
+              const mensaje = {
+                nombre: ref1.current.value,
+                correo: ref2.current.value,
+                mensaje: ref3.current.value,
+              };
+              db.collection("mensajes").add(mensaje);
               ref1.current.value = "";
               ref2.current.value = "";
               ref3.current.value = "";
